@@ -36,7 +36,7 @@ body {
   width: 25%;
   text-align: center;
   font-size: 18pt;
-  padding-top: 1em;
+  /* padding: 5% 8% 0 0; */
 }
 .cars {
   overflow: hidden;
@@ -47,7 +47,7 @@ body {
   height: 100%;
 }
 .comfort {
-  background-color: #f4f0e6;
+  background-color: #d9d9f3;
   overflow: hidden;
   overflow-x: scroll;
   width: 100%;
@@ -65,15 +65,16 @@ body {
 .footer {
   flex-grow: 3;
 }
-.FooterPrice{
+.FooterPrice {
   flex-grow: 1;
   text-align: left;
-  font-size: 18pt; 
+  font-size: 30pt;
 }
 #btn_submit {
   width: inherit;
   background-color: #f8b831;
   text-decoration-color: black;
+  font-size: 18pt;
 }
 .cars::-webkit-scrollbar {
   display: none;
@@ -82,10 +83,10 @@ body {
   display: none;
 }
 .bottomMenu div,
-.bottomMenu button{
+.bottomMenu button {
   height: 100%;
 }
-.cars--content img{
-  display: block;
-  margin: 0 auto;
+.cars--content img {
+  /* padding: 7% 0 0 30%; */
+  position: relative;
 }
